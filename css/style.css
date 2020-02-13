@@ -186,13 +186,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro h2 {
-    color: #fff;
-    margin-bottom: 30px;
-    font-size: 40px;
-    font-weight: 700;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto 30px auto;
+  color: #fff;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1024px) {
   #intro h2 {
     width: 60%;
   }
