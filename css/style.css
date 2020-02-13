@@ -169,10 +169,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .carousel-content {
-  text-align: center;
+  text-align: left;
 }
 
-#intro h2 {
+#intro h1 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #intro h2 {
+  #intro h1 {
     font-size: 28px;
   }
 }
