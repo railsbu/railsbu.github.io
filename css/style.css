@@ -175,17 +175,17 @@ h1, h2, h3, h4, h5, h6 {
 #intro h1 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 70px;
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 300px) {
   #intro h1 {
     font-size: 28px;
   }
 }
 
-#intro p {
+#intro h2 {
   width: 80%;
   align-items: center;
   margin: 0 auto 30px auto;
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 1024px) {
-  #intro p {
+  #intro h2 {
     width: 60%;
   }
 }
