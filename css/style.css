@@ -380,7 +380,7 @@ h6:hover, h6:active, h6:focus {
 #nav-menu-container {
   position: absolute;
   top: 20px;
-  left: 60px;
+  left: 500px;
   float: right;
   margin: 0;
 }
