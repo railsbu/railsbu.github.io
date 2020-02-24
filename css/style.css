@@ -17,7 +17,7 @@ a {
   color: #9F2F27;
   transition: 0.5s;
   position: relative;
-  top: 10px;
+  top: 0px;
 }
 
 a:hover, a:active, a:focus {
@@ -31,13 +31,22 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
 }
+h6 {
+    color: #9F2F27;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
 
+}
 h6:hover, h6:active, h6:focus {
   color: #9F2F27;
   outline: none;
@@ -124,7 +133,7 @@ h6:hover, h6:active, h6:focus {
   letter-spacing: 0px;
 }
 
-#header #logo h1 h6 a, #header #logo h1 h6 a:hover {
+#header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
   font-size: 34px;
   padding-top: 50px;
