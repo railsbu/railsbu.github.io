@@ -17,7 +17,7 @@ a {
   color: #9F2F27;
   transition: 0.5s;
   position: relative;
-  top: -20px;
+  top: 10px;
 }
 
 a:hover, a:active, a:focus {
