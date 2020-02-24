@@ -16,8 +16,8 @@ body {
 a {
   color: #9F2F27;
   transition: 0.5s;
-  padding-top: 30px;
-  pading-left: 20px;
+  position: relative;
+  top: -20px;
 }
 
 a:hover, a:active, a:focus {
