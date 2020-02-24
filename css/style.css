@@ -112,7 +112,7 @@ h6:hover, h6:active, h6:focus {
 #header.header-scrolled {
   background: rgba(100, 0, 0, 0.9);
   padding: 20px 0;
-  height: 90px;
+  height: 120px;
   transition: all 0.5s;
 }
 
