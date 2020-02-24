@@ -379,8 +379,8 @@ h6:hover, h6:active, h6:focus {
 /* Nav Meu Container */
 #nav-menu-container {
   position: absolute;
-  top: 20px;
-  left: 500px;
+  top: 50px;
+  left: 1600px;
   float: right;
   margin: 0;
 }
