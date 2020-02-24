@@ -328,9 +328,9 @@ h6:hover, h6:active, h6:focus {
 }
 
 .nav-menu ul {
-  position: absolute;
+  position: relative;
   display: none;
-  top: 100%;
+  top: -50px;
   left: 0;
   z-index: 99;
 }
