@@ -99,6 +99,11 @@ h6:hover, h6:active, h6:focus {
 # Header
 --------------------------------------------------------------*/
 #header {
+  background: rgba(100, 0, 0, 0.9);
+  padding: 20px 0;
+  height: 120px;
+  transition: all 0.5s;
+  /*
   padding: 30px 0;
   height: 92px;
   position: fixed;
@@ -106,7 +111,7 @@ h6:hover, h6:active, h6:focus {
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 997; */
 }
 
 #header.header-scrolled {
@@ -660,7 +665,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 200px 0 40px 0;
+  padding: 250px 0 40px 0;
   position: relative;
 }
 
