@@ -661,9 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
-  position: absolute;
-  top: 300px;
-  left: 50%;
+  position: relative;
 }
 
 #about::before {
@@ -679,7 +677,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .container {
   position: relative;
-  z-index: 10;
+  z-index: 100;
 }
 
 #about .about-col {
