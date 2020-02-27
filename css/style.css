@@ -662,7 +662,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   padding: 60px 0 40px 0;
   position: absolute;
-  toP: 300;
+  top: 300px;
+  left: 50%;
 }
 
 #about::before {
