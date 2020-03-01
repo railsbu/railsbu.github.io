@@ -99,7 +99,7 @@ h6:hover, h6:active, h6:focus {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(100, 0, 0, .9);
+  background: rgba(255, 255, 255, .6);
   padding: 20px 0;
   height: 120px;
   transition: all 0.5s;
