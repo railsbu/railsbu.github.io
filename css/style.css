@@ -497,7 +497,8 @@ h6:hover, h6:active, h6:focus {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #9F2F27;
+  color: #fff;
+  font-weight: 600;
 }
 
 .nav-menu > li {
