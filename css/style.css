@@ -1150,7 +1150,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients img {
-  max-width: 100%;
+  max-width: 1000%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
