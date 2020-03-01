@@ -111,7 +111,7 @@ h6:hover, h6:active, h6:focus {
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997; 
+  z-index: 997;
 }
 
 #header.header-scrolled {
@@ -179,6 +179,87 @@ h6:hover, h6:active, h6:focus {
     font-size: 28px;
   }
   #header #logo img {
+    max-height: 40px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Headerux
+--------------------------------------------------------------*/
+#headeraux {
+  background: rgba(255, 255, 255, 0.0);
+  padding: 20px 0;
+  height: 120px;
+  transition: all 0.5s;
+
+
+}
+
+#headeraux.header-scrolled {
+  background: rgba(100, 0, 0, 0.9);
+  padding: 20px 0;
+  height: 120px;
+  transition: all 0.5s;
+}
+
+#headeraux #logo {
+  float: left;
+}
+
+@media (min-width: 1024px) {
+  #headeraux #logo {
+    padding-left: 40px;
+  }
+}
+
+#headeraux #logo h1 {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+#headeraux #logo h5 {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0px;
+  display: inline-block;
+}
+#headeraux #logo h6 {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  display: inline-block;
+}
+
+#headeraux #logo h1 a, #header #logo h1 a:hover {
+  color: #fff;
+  font-size: 34px;
+  padding-top: 50px;
+  padding-left: 10px;
+  border-left: 4px solid #9F2F27;
+}
+
+#headeraux #logo img {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #headeraux #logo h1 {
+    font-size: 28px;
+  }
+  #headeraux #logo img {
     max-height: 40px;
   }
 }
